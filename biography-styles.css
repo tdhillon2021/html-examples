@@ -28,10 +28,19 @@ h2 {
   font-size: 1.5 rem;
 }
 
-a: link {
+a:link {
   color: green;
 }
 
+a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+a:focus {
+  color: darkgreen;
+  text-decoration: none:
+}
 
 
 ul {
