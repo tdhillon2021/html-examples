@@ -15,14 +15,24 @@
    </head>
 
    <body>
-      <header aria-label="Global Banner Region">
+      <header role="banner">
+         <p>This is the banner region</p>
       </header>
       
-     <main aria-label="Main Region">
+     <main role="main">
        <h1>Landmark Example</h1> 
+        <p>This is the main region.</p>
+
+        <p>If you are using NVDA press the 'D' key in order to listen to all the regions on the page.</p>
      </main>
-     <aside aria-label="Aside Region></aside>
+     <aside role="complimentary>
+         <p>This is an aside or complimentary region. A region that supports the main content that is separate and
+            meaningful, such as a side menu or a side note explaining the main content.
+        </p>
+      </aside>
       
-      <footer aria-label="Footer Region"></footer>
+      <footer role="contentInfo">
+        <p>This is the footer area.</p>
+     </footer>
    </body>
 </html>
