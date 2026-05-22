@@ -148,10 +148,49 @@
                 <li>navigation bar: &ltnav&gt.</li>
                 <li>main content: &ltmain&gt, with various content subsections repesented by &ltarticle&gt,
                     &ltsection&gt, and &ltdiv&gt elements. </li>
-                <li></li>
-                <li></li>
+                <li>sidebar: &ltaside&gt; often placed inside &ltmain&gt. </li>
+                <li>footer: &ltfooter%gt.</li>
               </ul>
             </p>
+          </section>
+          <section>
+            <h3>HTML layout elements in more detail </h3>
+
+            <p>
+              It's good to understand the overall meaning of all the HTML sectioning in detail - this is something
+              you'll work on gradually as you start to get more experience with web development. You can find a lot of 
+              detail by reading our HTML element reference. For now, these are the main definitions that you should try
+              to understand:
+
+              <ul>
+                <li>&ltmain&gt is for content unique to this page. Use &ltmain%gt only once per page,
+                    and put it directly inside &ltbody&gt. Ideally this shouldn't be nested within other elements. </li>
+                <li>&ltarticle&gt encloses a block of related content that makes sense on it's own without the rest of 
+                    the page (for example, a single blog post). </li>
+                <li>&ltsection&gt is similar to &ltarticle&gt, but it is more for grouping together a single part of the
+                    page that constitutes one single piece of functionality (like a mini map, or a set of article headlines
+                    and summaries), or a theme. It's considered a best practice to begin each section with a heading; also 
+                    note that you can break &ltarticle&gts up into different &ltsection&gts or %ltsection&gts up into different
+                    &ltarticle&gts depending on the context. </li>
+                <li>&ltaside&gt contains content that is not directly related to the main content but can provide additional 
+                    information indirectly related to it (glossary entries, author biography, related links, etc.).  </li>
+                <li>&ltheader&gt represents a group of introductory content. If it is a child of &ltbody&gt it defines the 
+                    global header of a webpage, but if it is a child of an &ltarticle&gt or a &ltsection&gt it defines a 
+                    specific header for that section (try not to confuse this with titles and headings). </li>
+                <li>&ltnav%gt contains the main navigation functionality for the page. Secondary links, etc., would not
+                    go in the navigation. </li>
+                <li>&ltfooter&gt represents a group of end content for a page. </li>
+              </ul>
+            </p>
+
+            <p>
+              Each of the aforementioned elements can be clicked on to read the corresponding article in the "HTML element reference" 
+              section, providing more detail about each one.
+            </p>
+          </section>
+
+          <section>
+            <h3>Non-semantic wrappers </h3>
           </section>
         </article>
 
