@@ -161,13 +161,20 @@
               for example:
 
               <ul>
-                <li><strong>header:</strong>: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header">
+                <li><strong>header:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header">
                   &ltheader&gt.</a></li>
-                <li><strong>navigation bar:</strong> &ltnav&gt.</li>
-                <li><strong>main content:</strong> &ltmain&gt, with various content subsections repesented by &ltarticle&gt,
-                    &ltsection&gt, and &ltdiv&gt elements. </li>
-                <li><strong>sidebar</strong>: &ltaside&gt; often placed inside &ltmain&gt. </li>
-                <li><strong>footer:</strong> &ltfooter&gt.</li>
+                <li><strong>navigation bar:</strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/nav"> 
+                  &ltnav&gt.</a></li>
+                <li><strong>main content:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/main "> 
+                  &ltmain&gt </a>, with various content subsections repesented by
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/article">&ltarticle&gt</a>,
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/section">&ltsection&gt</a>, and 
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/div ">&ltdiv&gt</a> elements.</li>
+                <li><strong>sidebar:</strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/aside"> 
+                  &ltaside&gt</a>; often placed inside <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/main"> 
+                    &ltmain&gt.</a></li>
+                <li><strong>footer:</strong><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/footer"> 
+                  &ltfooter&gt.</a></li>
               </ul>
             </p>
           </section>
@@ -177,18 +184,18 @@
             <p>
               It's good to understand the overall meaning of all the HTML sectioning in detail - this is something
               you'll work on gradually as you start to get more experience with web development. You can find a lot of 
-              detail by reading our HTML element reference. For now, these are the main definitions that you should try
-              to understand:
+              detail by reading our <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements ">
+              HTML element reference</a>. For now, these are the main definitions that you should try to understand:
 
               <ul>
-                <li>&ltmain&gt is for content unique to this page. Use &ltmain%gt only once per page,
+                <li>&ltmain&gt is for content unique to this page. Use &ltmain&gt only once per page,
                     and put it directly inside &ltbody&gt. Ideally this shouldn't be nested within other elements. </li>
                 <li>&ltarticle&gt encloses a block of related content that makes sense on it's own without the rest of 
                     the page (for example, a single blog post). </li>
                 <li>&ltsection&gt is similar to &ltarticle&gt, but it is more for grouping together a single part of the
                     page that constitutes one single piece of functionality (like a mini map, or a set of article headlines
                     and summaries), or a theme. It's considered a best practice to begin each section with a heading; also 
-                    note that you can break &ltarticle&gts up into different &ltsection&gts or %ltsection&gts up into different
+                    note that you can break &ltarticle&gts up into different &ltsection&gts or &ltsection&gts up into different
                     &ltarticle&gts depending on the context. </li>
                 <li>&ltaside&gt contains content that is not directly related to the main content but can provide additional 
                     information indirectly related to it (glossary entries, author biography, related links, etc.).  </li>
